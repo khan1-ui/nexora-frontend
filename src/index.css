@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Custom Theme Colors */
+@theme {
+  --color-app-lightText: #1f2937;
+  --color-app-darkText: #e2e8f0;
+  --color-app-lightBg: #f9fafb;
+  --color-app-darkBg: #0f172a;
+}
